@@ -7,3 +7,8 @@ test('soma dois números', () => {
 test('mensagem de boas vindas', () => {
   expect(mensagemBoasVindas('Diogo')).toBe('Olá, Diogo!');
 });
+
+//ex 01
+test('maior numero', () =>{
+  expect(qualMaior(8, 9)).toBe(9)
+})
